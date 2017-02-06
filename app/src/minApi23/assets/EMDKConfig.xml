@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><!--This is an auto generated document. Changes to this document may cause incorrect behavior.-->
+<!--  MIN 23 ONLY -->
+<wap-provisioningdoc>
+  <characteristic type="ProfileInfo">
+    <parm name="created_wizard_version" value="6.0.4"/>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="HelloProfile"/>
+    <parm name="ModifiedDate" value="2017-02-06 11:27:47"/>
+    <parm name="TargetSystemVersion" value="4.2"/>
+    <characteristic type="AppMgr" version="4.2">
+      <parm name="emdk_name" value="ApplicationManager"/>
+      <parm name="Action" value="EnableApplication"/>
+      <parm name="Package" value="com.darryncampbell.productflavours"/>
+    </characteristic>
+  </characteristic>
+</wap-provisioningdoc>
