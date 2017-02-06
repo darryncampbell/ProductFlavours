@@ -23,14 +23,16 @@ android {
             //  Not compatible with Jellybean devices
             compileSdkVersion 'Symbol Technologies LLC:EMDK APIs:23'
             targetSdkVersion 23
-            minSdkVersion 19    //  EMDK 6.0 supports as far back as KitKat (19)        versionCode 30000 + android.defaultConfig.versionCode
+            minSdkVersion 19    //  EMDK 6.0 supports as far back as KitKat (19)
+            versionCode 30000 + android.defaultConfig.versionCode
             versionNameSuffix "-minApi23"
         }
 
         minApi22 {
             compileSdkVersion 'Symbol Technologies LLC:EMDK APIs:22'
             targetSdkVersion 23
-            minSdkVersion 19    //  EMDK 6.0 supports as far back as KitKat (19)        versionCode 20000 + android.defaultConfig.versionCode
+            minSdkVersion 19    //  EMDK 6.0 supports as far back as KitKat (19)
+            versionCode 20000 + android.defaultConfig.versionCode
             versionNameSuffix "-minApi22"
         }
 
@@ -56,7 +58,7 @@ android {
             compileSdkVersion 23
             targetSdkVersion 23
             dependencies {
-                provided fileTree(include: ['com.symbol.emdk.jar'], dir: 'C:\\Users\\<YOUR USERNAME>\\AppData\\Local\\Android\\sdk\\add-ons\\addon-symbol_emdk-symbol-23\\libs')
+                provided fileTree(include: ['com.symbol.emdk.jar'], dir: 'C:\\Users\\darry\\AppData\\Local\\Android\\sdk\\add-ons\\addon-symbol_emdk-symbol-23\\libs')
                 compile fileTree(exclude: ['com.symbol.emdk.jar'], dir: 'libs')
             }
             versionCode 50000 + android.defaultConfig.versionCode
