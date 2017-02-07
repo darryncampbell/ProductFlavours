@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><!--This is an auto generated document. Changes to this document may cause incorrect behavior.--><wap-provisioningdoc>
+  <!--  This profile XML has a target version of 6.0 (M) -->
+  <characteristic type="ProfileInfo">
+    <parm name="created_wizard_version" value="6.0.4"/>
+  </characteristic>
+  <characteristic type="Profile">
+    <parm name="ProfileName" value="PowerProfile"/>
+    <parm name="ModifiedDate" value="2017-02-07 21:24:38"/>
+    <parm name="TargetSystemVersion" value="6.0"/>
+    <characteristic type="PowerMgr" version="4.2">
+      <parm name="emdk_name" value="examplePowerProfile"/>
+      <parm name="ResetAction" value="1"/>
+    </characteristic>
+  </characteristic>
+</wap-provisioningdoc>
